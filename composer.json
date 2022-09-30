@@ -1,0 +1,21 @@
+{
+    "name": "lmelomoura/buscador-curso",
+    "description": "Projeto de buscador de cursos na Aluna",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Luiz Moura",
+            "email": "lfmoura@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "symfony/dom-crawler": "^6.1",
+        "symfony/css-selector": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "LuizMoura\\BuscadorDeCursos\\" : "src/"
+        }
+    }
+}
